@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        .font35 {
+            font-size: 35px;
+        }
+        #red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+        <div id="red">id选择器只能调用一次，这里调用了，其他就调用不了</div>
+        <div class="red box"></div>
+        <div class="green box"></div>
+        <div class="red box">红色</div>
+<!--多类名-->
+        <div class="red font35 box">红色</div>
+</body>
+</html>
