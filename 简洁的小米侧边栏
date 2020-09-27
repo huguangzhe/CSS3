@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单版小米侧边栏</title>
+    <style>
+        a {
+            width: 230px;
+            height: 40px;
+            display: block;
+            background-color: #55585a;
+            text-decoration: none;
+            font-size: 14px;
+            color: #ffffff;
+            text-indent: 2em;
+        }
+
+        a:hover {
+            background-color: #ff6700;
+        }
+    </style>
+</head>
+<body>
+<a href="https://www.mi.com/p/1915.html">手机 电话卡</a>
+<a href="https://www.mi.com/a/h/9819.html">电视 盒子</a>
+<a href="https://www.mi.com/a/h/7529.html">笔记本 平板</a>
+<a href="https://www.mi.com/p/9289.html">出行 穿戴</a>
+<a href="https://www.mi.com/a/h/8363.html">智能 路由器</a>
+<a href="https://www.mi.com/p/9291.html">健康 儿童</a>
+<a href="https://www.mi.com/p/9292.html">耳机 音响</a>
+</body>
+</html>
