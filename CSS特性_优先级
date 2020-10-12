@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test {
+            color: aqua;
+        }
+        div {
+            color: red;
+        }
+        #demo {
+            color: blue;
+        }
+        .nav .pink {
+            color: pink;
+            font-weight: 700;
+        }
+        .nav li{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!--                  行内样式style>id选择器>类选择器>大于元素选择器                          -->
+    <div class="test" id="demo" style="color: green">选择器优先级</div>
+    <ul class="nav">
+    <li class="pink">好好学习，天天向上</li>
+    <li>乌日三省吾身</li>
+    <li>111111111111</li>
+    <li>2222222222222</li>
+    </ul>
+</body>
+</html>
