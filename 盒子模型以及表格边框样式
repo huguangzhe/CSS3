@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型边框</title>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+               /*border-width 边框粗细 一般情况下都用px   */
+            border-width: 5px;
+            /*   border-style 边框的样式  solid实线边框      dashed 虚线边框   dotted  点线  */
+            border-style: solid;
+            /*    border-color  边框的颜色*/
+            border-color: red;
+            /*    border：1px solid red；  没有顺序*/
+            /*border: 5px solid red;*/
+        }
+        table {
+            width: 500px;
+            height: 249px;
+        }
+        table,th, td {
+            border: 2px solid red;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <table align="center">
+        <thead>
+        <tr>
+            <th>排名</th>
+            <th>关键词</th>
+            <th>趋势</th>
+            <th>进入搜索</th>
+            <th>最近趋势</th>
+            <th>相关链接</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>鬼吹灯</td>
+            <td><img src="images/down.jpg" alt="降低"></td>
+            <td>456</td>
+            <td>123</td>
+            <td><a href="https://tieba.baidu.com/index.html"target="_blank" >贴吧</a><a href="https://image.baidu.com/"target="_blank">图片</a><a href="https://baike.baidu.com/" target="_blank">百科</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>鬼吹灯</td>
+            <td><img src="images/down.jpg" alt="降低"></td>
+            <td>456</td>
+            <td>123</td>
+            <td><a href="https://tieba.baidu.com/index.html">贴吧</a><a href="https://image.baidu.com/">图片</a><a href="https://baike.baidu.com/">百科</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>斗破苍穹</td>
+            <td><img src="images/up.jpg" alt="上升"></td>
+            <td>456</td>
+            <td>123</td>
+            <td><a href="https://tieba.baidu.com/index.html">贴吧</a><a href="https://image.baidu.com/">图片</a><a href="https://baike.baidu.com/">百科</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>鬼吹灯</td>
+            <td><img src="images/down.jpg" alt="降低"></td>
+            <td>456</td>
+            <td>123</td>
+            <td><a href="https://tieba.baidu.com/index.html">贴吧</a><a href="https://image.baidu.com/">图片</a><a href="https://baike.baidu.com/">百科</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>鬼吹灯</td>
+            <td><img src="images/down.jpg" alt="降低"></td>
+            <td>456</td>
+            <td>123</td>
+            <td><a href="https://tieba.baidu.com/index.html">贴吧</a><a href="https://image.baidu.com/">图片</a><a href="https://baike.baidu.com/">百科</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>鬼吹灯</td>
+            <td><img src="images/down.jpg" alt="降低"></td>
+            <td>456</td>
+            <td>123</td>
+            <td><a href="https://tieba.baidu.com/index.html">贴吧</a><a href="https://image.baidu.com/">图片</a><a href="https://baike.baidu.com/">百科</a></td>
+        </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
