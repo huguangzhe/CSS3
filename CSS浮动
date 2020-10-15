@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        div {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+        .right {
+            float: right;
+        }
+        span {
+            float: left;
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+        p {
+            float: right;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <span>1</span>
+    <p>2222222222222222</p>
+</body>
+</html>
