@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>利用精灵图26个字母拼出自己的名字</title>
+    <style>
+        span {
+            display: inline-block;
+            background:url("images/abcd.jpg") no-repeat
+        }
+        .p {
+            width: 100px;
+            height: 112px;
+            background-position: -490px -276px;
+        }
+        .i {
+            width: 61px;
+            height: 114px;
+            background-position: -326px -135px;
+        }
+        .n {
+            width: 113px;
+            height: 114px;
+            background-position: -256px -274px;
+        }
+        .k {
+            width: 108px;
+            height: 113px;
+            background-position: -492px -142px;
+        }
+    </style>
+</head>
+<body>
+    <span class="p"></span>
+    <span class="i"></span>
+    <span class="n"></span>
+    <span class="k"></span>
+</body>
+</html>
