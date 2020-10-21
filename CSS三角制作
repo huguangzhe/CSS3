@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS三角制作</title>
+    <style>
+        .box1 {
+            width: 0;
+            height: 0;
+            /*border: 10px solid red;*/
+            border-top: 10px solid blue;
+            border-right: 10px solid red;
+            border-bottom: 10px solid pink;
+            border-left: 10px solid green;
+        }
+        .box2 {
+            width: 0;
+            height: 0;
+            border: 50px solid transparent;
+            border-left-color: #00a4ff;
+            margin: 30px auto;
+        }
+        .jd {
+            position: relative;
+            width: 120px;
+            height: 249px;
+            background-color: blue;
+        }
+        .jd span {
+            position: absolute;
+            right: 15px;
+            top: -30px;
+            width: 0;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            border: 15px solid transparent;
+            border-bottom-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="jd">
+        <span></span>
+    </div>
+</body>
+</html>
