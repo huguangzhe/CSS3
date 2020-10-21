@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .tb-promo {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            background-color: red;
+            margin: 100px auto;
+        }
+        .prev {
+            left: 0;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius:15px;
+        }
+        /*并集选择器可以集体声明相同的样式*/
+        .prev,.next {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            /*加了绝对定位的盒子可以直接设置高度和宽度*/
+            width: 20px;
+            height: 30px;
+            background:rgba(0,0,0,0.2);
+            text-align: center;
+            line-height: 30px;
+            color:#fff;
+            text-decoration: none;
+        }
+        .next {
+            right: 0;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        .promo-nav {
+            position:absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            background:rgba(255,255,255,.3);
+            border-radius:7px;
+
+        }
+        .promo-nav li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            list-style: none;
+            border-radius: 50%;
+            margin: 3px;
+        }
+        .promo-nav .select {
+            background-color: #ff5000;
+        }
+    </style>
+</head>
+<body>
+    <div class="tb-promo">
+        <img src="images/tb.jpg" alt="">
+        <!--左侧按钮-->
+        <a href="#" class="prev">&lt;</a>
+        <!--右侧按钮-->
+        <a href="#" class="next">&gt;</a>
+        <!--底部圆点-->
+        <ul class="promo-nav">
+            <li class="select" ></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
